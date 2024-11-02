@@ -27,8 +27,7 @@ const Page = ({ params }) => {
 
   const fetchBlogData = async () => {
     try {
-      const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-      const response = await axios.get(`${apiUrl}/api/blog`, {
+      const response = await axios.get(`/api/blog`, {
         params: { id },
       });
       setData(response.data);

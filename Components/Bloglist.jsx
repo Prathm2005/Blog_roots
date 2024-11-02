@@ -5,11 +5,10 @@ import axios from 'axios';
 const Bloglist = () => {
     const [menu, setMenu] = useState("All");
     const [blogs, setBlogs] = useState([]);
-    const apiUrl = process.env.NEXT_PUBLIC_API_URL; 
 
     const fetchBlogs = async () => {
         try {
-            const response = await axios.get(`${apiUrl}/api/blog`); 
+            const response = await axios.get(`/api/blog`); 
             setBlogs(response.data.blogs);
             console.log(response.data.blogs);
         } catch (error) {
