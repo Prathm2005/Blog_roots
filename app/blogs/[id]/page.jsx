@@ -27,8 +27,9 @@ const Page = ({ params }) => {
 
   const fetchBlogData = async () => {
     try {
-      const response = await axios.get('/api/blog', {
-        params: { id }
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+      const response = await axios.get(`${apiUrl}/api/blog`, {
+        params: { id },
       });
       setData(response.data);
       setLoading(false);
@@ -37,6 +38,7 @@ const Page = ({ params }) => {
       setLoading(false);
     }
   };
+  
 
   useEffect(() => {
     if (id) {
