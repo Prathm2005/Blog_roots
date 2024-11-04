@@ -16,6 +16,7 @@ const Page = () => {
 
   },[])
   const deleteblog=async(mongoId)=>{
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL; 
     const response=await axios.delete(`${apiUrl}/api/blog`,{
       params:{
         id:mongoId 
