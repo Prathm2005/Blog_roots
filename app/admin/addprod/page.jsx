@@ -37,7 +37,7 @@ const Page = () => {
 
     try {
       const apiUrl = process.env.NEXT_PUBLIC_API_URL; 
-      const response = await axios.post('/api/blog', formData);
+      const response = await axios.post(`${apiUrl}/api/blog`, formData);
       if (response.data.success) {
         toast.success(response.data.msg);
         setImage(null); 
@@ -60,7 +60,7 @@ const Page = () => {
     <form onSubmit={onsubmithandler} className="pt-5 px-5 sm:pt-12 sm:pl-16">
       <p className="text-xl"> Upload the Image </p>
       <label htmlFor="image">
-        <img
+        <Image
           className="mt-2 cursor-pointer"
           src={!image ? assets.upload_area : URL.createObjectURL(image)}
           width={140}

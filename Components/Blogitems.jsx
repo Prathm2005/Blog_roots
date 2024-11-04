@@ -7,7 +7,7 @@ const Blogitems = ({ title, description, category, image,id }) => {
   return (
     <div className="max-w-[330px] sm:max-w-[300px] bg-white     rounded-lg overflow-hidden shadow-lg border border-black transition-transform hover:scale-105">
       <Link href={`/blogs/${id}`}>
-        <img
+        <Image
           src={image}
           alt={title}
           width={400}
