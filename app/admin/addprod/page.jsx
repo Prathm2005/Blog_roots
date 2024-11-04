@@ -37,7 +37,7 @@ const Page = () => {
 
     try {
       const apiUrl = process.env.NEXT_PUBLIC_API_URL; 
-      const response = await axios.post(`/api/blog`, formData);
+      const response = await axios.post('/api/blog', formData);
       if (response.data.success) {
         toast.success(response.data.msg);
         setImage(null); 

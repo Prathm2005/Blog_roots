@@ -9,7 +9,7 @@ const Bloglist = () => {
     const fetchBlogs = async () => {
         const apiUrl = process.env.NEXT_PUBLIC_API_URL; 
         try {
-            const response = await axios.get(`${apiUrl}/api/blog`); 
+            const response = await axios.get('/api/blog'); 
             setBlogs(response.data.blogs);
             console.log(response.data.blogs);
         } catch (error) {

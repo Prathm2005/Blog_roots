@@ -11,7 +11,7 @@ const Page = () => {
     const FetchBlogs = async () => {
         try {
             const apiUrl = process.env.NEXT_PUBLIC_API_URL; 
-            const response = await axios.get(`${apiUrl}/api/blog`);
+            const response = await axios.get('/api/blog');
             setBlogs(response.data.blogs);
         } catch (error) {
             toast.error("Error fetching blogs");
