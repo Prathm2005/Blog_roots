@@ -43,11 +43,11 @@ export async function POST(request) {
         const buffer = Buffer.from(imageByteData);
 
        
-        const dirPath = path.join(process.cwd(), 'public'); 
-        const imagePath = path.join(dirPath, `${timestamp}_${image.name}`);
+        // const dirPath = path.join(process.cwd(), 'public'); 
+        const path=`./public/${timestamp}_${image.name}`
+        await writeFile(path, buffer);
         
         
-        await writeFile(imagePath, buffer);
 
         const imgUrl = `/${timestamp}_${image.name}`;
         const blogData = {
