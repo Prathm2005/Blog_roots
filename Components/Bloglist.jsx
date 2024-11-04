@@ -7,14 +7,16 @@ const Bloglist = () => {
     const [blogs, setBlogs] = useState([]);
 
     const fetchBlogs = async () => {
+        const apiUrl = process.env.NEXT_PUBLIC_API_URL; 
         try {
-            const response = await axios.get(`/api/blog`); 
+            const response = await axios.get(`${apiUrl}/api/blog`); 
             setBlogs(response.data.blogs);
             console.log(response.data.blogs);
         } catch (error) {
             console.error("Error fetching blogs:", error);
         }
     };
+    
 
     useEffect(() => {
         fetchBlogs();

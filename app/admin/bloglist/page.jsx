@@ -7,7 +7,8 @@ import { toast } from 'react-toastify';
 const Page = () => {
   const [blogs,setBlogs]=useState([]);
   const FetchBlogs=async ()=>{
-    const response=await axios.get('/api/blog');
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL; 
+    const response=await axios.get(`${apiUrl}/api/blog`);
     setBlogs(response.data.blogs)
   }
   useEffect(()=>{
@@ -15,7 +16,7 @@ const Page = () => {
 
   },[])
   const deleteblog=async(mongoId)=>{
-    const response=await axios.delete('/api/blog',{
+    const response=await axios.delete(`${apiUrl}/api/blog`,{
       params:{
         id:mongoId 
       }
