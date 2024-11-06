@@ -3,4 +3,4 @@ const nextConfig = {
   trailingSlash: false, // Your setting
 };
 
-module.exports = nextConfig;
+export default nextConfig;
