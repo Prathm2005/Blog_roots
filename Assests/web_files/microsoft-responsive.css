@@ -1,0 +1,262 @@
+@media only screen and (min-width : 320px) and (max-width : 576px) {
+    .ag-col1 {
+        width: 100%;
+    }
+    .ag-col2 {
+        width: 100%;
+    }
+    .ag-card-industries {
+        padding: 15px;
+        margin: 0 7px 15px;
+    }
+
+    .ag-microsoft_services {
+        margin-top: 10px;
+    }
+
+    .ag-microsoft_services h1 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .ag-microsoft_services .nav {
+        padding: 10px 15px !important;
+    }
+
+    .ag-microsoft_services .nav li {
+        font-size: 13px;
+    }
+
+    .ag-microsoft_services .nav li:after {
+        top: 7px;
+        left: -12px;
+        border-radius: 100px;
+    }
+
+    .ag-tags-input .ag-autocomplete {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .title-size50 {
+        font-size: 22px;
+    }
+
+    .ag-filter-services {
+        padding-bottom: 50px !important;
+    }
+
+    .ag-microsoft-section {
+        /* padding: 50px 0 150px; */
+        padding: 80px 0 150px;
+    }
+    .ag-microsoft_services_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .heading-seperators {
+       display: none;
+    }
+    .soltutions-partner-img {
+        display: none;
+     }
+     .ag-col1 {
+        display: none;
+     }
+     .filter-data-img {
+        display: block;
+    }
+}
+
+@media only screen and (min-width : 577px) and (max-width : 767px) {
+    .ag-col1 {
+        width: 100%;
+    }
+    .ag-col2 {
+        width: 100%;
+    }
+    .ag-microsoft_services h1 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    .ag-microsoft-section {
+        padding: 80px 0 150px;
+    }
+
+    .ag-card-industries {
+        margin: 0 7px 15px;
+    }
+    .ag-microsoft_services_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .heading-seperators {
+        display: none;
+     }
+     .soltutions-partner-img {
+        display: none;
+     }
+     .ag-col1 {
+        display: none;
+     }
+     .filter-data-img {
+        display: block;
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .ag-col1 {
+        width: 33.33%;
+    }
+    .ag-col2 {
+        width: 66.66%;
+    }
+    .ag-filter-box .ag-list-group-item {
+        font-size: 14px; margin-bottom: 6px;
+    }
+    .ag-filter-box .ag-list-group-item .form-check-input {
+        height: 17px;
+        width: 17px;
+    }
+    .bold_text {
+        font-size: 14px !important;
+    }
+    .ag-microsoft_services h1 {
+        font-size: 21px;
+        margin-top: 20px;
+    }
+    .card.ag-result_dynamics h5 {
+        font-size: 14px;
+    }
+    .card.ag-result_dynamics .card-body h6 {
+        font-size: 13px;
+    }
+    .card.ag-result_dynamics .btn {
+        font-size: 13px;
+        padding: 5px 5px;
+    }
+
+    .ag-filter-services {
+        padding-bottom: 60px !important;
+    }
+    .ag-microsoft-section {
+        padding: 80px 0 160px;
+    }
+    .ag-card-industries {
+        align-items: center;
+        margin: 0 6px 13px;
+        flex-basis: content;
+    }
+    .ag-microsoft_services_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .heading-seperators {
+        display: none;
+     }
+     .soltutions-partner-img {
+        display: none;
+     }
+     .card.ag-result_dynamics h5 {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width : 1025px) and (max-width : 1200px) {
+    .ag-filter-box .ag-list-group-item {
+        font-size: 14px; margin-bottom: 6px;
+    }
+    .ag-filter-box .ag-list-group-item .form-check-input {
+        height: 17px;
+        width: 17px;
+    }
+    .microsoft-marketplace-image {
+        width: 180px;
+    }
+    .bold_text {
+        font-size: 14px !important;
+    }
+    .ag-microsoft_services h1 {
+        font-size: 21px;
+        margin-top: 20px;
+    }
+    .card.ag-result_dynamics h5 {
+        font-size: 14px;
+    }
+    .card.ag-result_dynamics .card-body h6 {
+        font-size: 13px;
+    }
+    .card.ag-result_dynamics .btn {
+        font-size: 13px;
+        padding: 5px 5px;
+    }
+
+    .ag-filter-services {
+        padding-bottom: 60px !important;
+    }
+    .ag-microsoft-section {
+        padding: 80px 0 160px;
+    }
+    .ag-card-industries {
+        align-items: center;
+        margin: 0 6px 13px;
+        flex-basis: content;
+    }
+    .ag-microsoft_services_wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .heading-seperators {
+        display: none;
+     }
+     .soltutions-partner-img {
+        display: none;
+     }
+     .card.ag-result_dynamics h5 {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width : 1201px) and (max-width : 1300px) {
+    .card.ag-result_dynamics .btn {
+        font-size: 13px;
+        padding: 8px 8px;
+    }
+    .card.ag-result_dynamics h5 {
+        font-size: 16px;
+    }
+
+}
+@media (min-width: 1400px) {
+    /* .card.ag-result_dynamics .card-body h6 {
+        font-size: 13px;
+    } */
+
+}
+
+
+
+@media (min-width: 1600px){
+    .container.ag_container {
+        max-width: 1400px;
+    }
+    /* .card.ag-result_dynamics .card-body h6 {
+        font-size: 13px;
+    } */
+
+}
+@media (min-width: 1900px) {
+    .container.ag_container {
+        max-width: 1600px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+.mobile-filteroffcanvas {
+display: block;    
+}
+}

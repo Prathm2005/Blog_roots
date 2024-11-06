@@ -1,0 +1,179 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Muli";
+}
+
+@font-face {
+  font-family: "Muli-Bold";
+  src: url("../fonts/Muli-Bold.woff2") format("woff2"),
+    url("../fonts/Muli-Bold.woff") format("woff"),
+    url("../fonts/Muli-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Muli";
+  src: url("../fonts/Muli.woff2") format("woff2"),
+    url("../fonts/Muli.woff") format("woff"),
+    url("../fonts/Muli.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Muli-Light";
+  src: url("../fonts/Muli-Light.woff2") format("woff2"),
+    url("../fonts/Muli-Light.woff") format("woff"),
+    url("../fonts/Muli-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Muli-SemiBold";
+  src: url("../fonts/Muli-SemiBold.woff2") format("woff2"),
+    url("../fonts/Muli-SemiBold.woff") format("woff"),
+    url("../fonts/Muli-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Muli-Extra-Bold";
+  src: local("Muli Extra Bold"), local("Muli-Extra-Bold"),
+    url("../fonts/Muli-ExtraBold.woff2") format("woff2"),
+    url("../fonts/Muli-ExtraBold.woff") format("woff"),
+    url("../fonts/Muli-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.az-copilot-home-section {
+  background-color: #F5F5F5;
+  padding: 40px 0;
+  margin-top: 75px;
+}
+
+.az-copilot-post-section {
+  padding: 40px 0;
+}
+
+.text-warning {
+  color: #f79c2e !important;
+}
+
+.copilot-right-section-wrapper {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.az-copilot-info-section h2 {
+  font-size: 40px;
+  font-family: "Muli-Extra-Bold";
+}
+
+.az-copilot-info-section p {
+  color: #666666;
+font-size: 15px;
+}
+
+.az-copilot-btn {
+  background: #f89b2d !important;
+  color: #fff !important;
+  padding: 5px 15px !important;
+  font-size: 14px;
+  width: fit-content;
+  border-radius: 6px;
+}
+
+.az-copilot-bottom-section h6 {
+  color: #666666;
+}
+
+.az-post-heading h2 {
+  font-family: "Muli-Extra-Bold";
+}
+
+.az-post-section-wrapper {
+  background-color: #fff;
+  border: 1px solid #E8E8EA;
+  padding: 20px 20px;
+  border-radius: 8px;
+  height: 100%;
+}
+
+.az-post-section-heading {
+  font-size: 20px;
+  font-family: "Muli-SemiBold";
+}
+
+.az-post-section-desc {
+  font-size: 14px;
+  color: #97989F;
+  overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.az-copilot-badges {
+  background-color: #FEF3E6;
+  color: #F79C2E;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.az-badges-date-heading h6 {
+  font-size: 14px;
+  color: #999999CC;
+}
+
+.navbar-nav li a {
+    color: #2d2f3c !important;
+    text-decoration: none;
+    padding: 0.5em 1em !important;
+}
+
+footer {
+    padding: 0 !important;
+    margin-top: 0 !important;
+    background: #2d2f3c;
+}
+
+.navbar .ig-megamenu.contact-menu .nav-link {
+    color: #fff !important;
+}
+
+@media screen and (max-width: 1400px) {
+.az-copilot-info-section h2 {
+  font-size: 30px;
+  font-family: "Muli-Extra-Bold";
+}
+.az-copilot-bottom-section h6 {
+    font-size: 14px;
+}
+.az-post-section-heading {
+    font-size: 18px;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .az-copilot-info-section {
+    margin-top: 1.5rem;
+  }
+.az-copilot-home-section {
+    padding: 40px 5px;
+    margin-top: 60px;
+}
+    .az-copilot-info-section h2 {
+        font-size: 24px;
+    }
+}

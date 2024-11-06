@@ -1,0 +1,200 @@
+
+
+.flexcenter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.readytoschedule {
+  margin-top: 0; }
+  .readytoschedule h5 {
+    color: #E4B14D;
+    font-weight: bold; 
+    font-size: 2.25rem;
+}
+  .readytoschedule .img-fill {
+    height: 140px; }
+    .readytoschedule .img-fill .info {
+      padding: 0 2rem; }
+  .readytoschedule .btn {
+    background: white;
+    color: #F79C2E;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 0.375em 1.5em;
+    border: white; }
+  .readytoschedule .btn:hover {
+    background: #F79C2E;
+    color: white;
+    border: #F79C2E; }
+
+.circle {
+  padding: 20px 0 50px 0; }
+  .circle h5 {
+    color: #E4B14D; 
+     font-weight: bold; 
+    font-size: 2.25rem;
+    width: 100% !important;
+}
+  .circle .supplychainContent li:before {
+    width: 25px;
+    height: 25px;
+    top: 0;
+    background: url("../../images/MS-dynamics-and-cloud/icon4.png") no-repeat 0 0; }
+
+.case-studies {
+  background: #EEF1F6; }
+  .case-studies h5 {
+    color: #E4B14D;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 25px; 
+     font-weight: bold; 
+    font-size: 2.25rem;
+}
+  .case-studies .Boxes {
+    background: white;
+    text-align: left;
+    height: 100%; }
+    .case-studies .Boxes .img-thumb {
+      text-align: center; }
+    .case-studies .Boxes .img-thumb.color1 {
+      background: #faf4e6; }
+    .case-studies .Boxes .img-thumb.color2 {
+      background: #eae9e9; }
+    .case-studies .Boxes .wrap {
+      padding: 20px; }
+      .case-studies .Boxes .wrap h6 {
+        font-size: 1.375rem;
+        font-weight: bold; }
+      .case-studies .Boxes .wrap p {
+        font-size: 0.9375rem; }
+
+.case-studies-slider .owl-nav {
+  text-align: center; }
+
+.case-studies-slider .owl-nav .owl-prev.disabled {
+  opacity: 0.6; }
+
+case-studies-slider .owl-nav .owl-next.disabled {
+  opacity: 0.6; }
+
+.case-studies-slider .owl-nav button {
+  outline: none; }
+
+.case-studies-slider .owl-nav .owl-prev span:before, .case-studies-slider .owl-nav .owl-next span:before {
+  top: 50%;
+  position: absolute;
+  margin-top: -8px;
+  left: 50%;
+  margin-left: -8px; }
+
+.case-studies-slider .owl-nav .owl-next span:before {
+  top: 50%;
+  position: absolute;
+  margin-top: -8px;
+  left: 50%;
+  margin-left: -6px; }
+
+.case-studies-slider .owl-nav .owl-prev span {
+  display: block;
+  position: relative;
+  font-size: 0px;
+  margin-right: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+  text-align: center;
+  color: #E4B14D; }
+
+.case-studies-slider .owl-nav .owl-prev span:before {
+  content: "\f060";
+  font: normal normal normal 15px/1 FontAwesome; }
+
+.case-studies-slider .owl-nav .owl-next span {
+  position: relative;
+  font-size: 0px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #E4B14D;
+  color: white;
+  text-align: center; }
+
+.case-studies-slider .owl-nav .owl-next span:before {
+  content: "\f061";
+  font: normal normal normal 15px/1 FontAwesome; }
+
+.owl-carousel .owl-stage {
+  display: flex; }
+
+.article-items {
+  display: block;
+  height: 100%; }
+
+.partner {
+  margin-top: 64px;
+  color: white; }
+  .partner .relative {
+    position: relative; }
+    .partner .relative h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      padding-top: 28px; }
+    .partner .relative p {
+      font-size: 1.125rem;
+      width: 75%; }
+    .partner .relative .btn.margin-btn {
+      color: #E4B14D;
+      background: white;
+      border: white;
+      padding: 0.7em 1em;
+      margin-bottom: 220px; }
+    .partner .relative .ms-logo {
+      width: 7%;
+      height: auto;
+      margin-top: 15px;
+      margin-left: -44px;
+      display: none; }
+    .partner .relative .ms-text-logo {
+      width: 22%;
+      height: auto;
+      position: absolute;
+      right: 10px;
+      bottom: 79px;
+      display: none; }
+  .partner .left {
+    font-size: 2rem;
+    font-weight: bold; }
+  .partner .right {
+    font-size: 1.125rem;
+    line-height: 36px;
+    width: 80%;
+    justify-content: flex-start;
+    align-items: flex-start; }
+    .partner .right div {
+      margin-left: 10px; }
+  .partner .hr-rows {
+    margin-top: 25px;
+    padding-bottom: 50px; }
+    .partner .hr-rows .col-lg-3 {
+      padding: 30px 15px;
+      margin: 0 13px;
+      text-align: center;
+      background: #474747;
+      max-width: 22%;
+      display: block;
+      float: left; }
+      .partner .hr-rows .col-lg-3 h6 {
+        font-size: 1.375rem;
+        margin: 15px 0 23px 0;
+        color: #E4B14D; }
+      .partner .hr-rows .col-lg-3 p {
+        font-size: 0.9375rem;
+        margin: 0 auto;
+        width: 80%; }
+
+/*# sourceMappingURL=StyleSheet-style.css.map */
+/* /www.intelegain.com/html/wp-content/themes/intelegain2019/sass/css */
