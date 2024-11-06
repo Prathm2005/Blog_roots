@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  trailingSlash: false, // Add trailingSlash configuration
+  trailingSlash: false, 
 };
 
 module.exports = nextConfig;
