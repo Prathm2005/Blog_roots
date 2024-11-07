@@ -1,9 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-   images: {
-        domains: ['blogroots.onrender.com'], // Add the domain where your images are hosted
-    },
-  };
-  
-  export default nextConfig;
-  
+  trailingSlash: true, // Your setting
+};
+
+export default nextConfig;
