@@ -39,17 +39,20 @@ export async function POST(request) {
         const imageByteData = await image.arrayBuffer();
         const buffer = Buffer.from(imageByteData);
 
-        
-        const imgPath = path.join(process.cwd(), 'public', `${timestamp}_${image.name}`);
+        // Save image in the 'public/images' subfolder
+        const imgPath = path.join(process.cwd(), 'public', 'images', `${timestamp}_${image.name}`);
         await writeFile(imgPath, buffer);
 
-        const imgUrl = `/${timestamp}_${image.name}`;
+        // Create the relative URL to the image stored in the public folder
+        const imgUrl = `/images/${timestamp}_${image.name}`;
+
+        // Prepare the blog data
         const blogData = {
             title: formData.get('title') || '',
             description: formData.get('description') || '',
             category: formData.get('category') || '',
             authorname: formData.get('authorname') || '',
-            image: imgUrl,
+            image: imgUrl, // Save the image URL
         };
 
         if (!blogData.title || !blogData.description || !blogData.category || !blogData.authorname) {
